@@ -5,6 +5,7 @@ using System.Text.Json;
 using System;
 using static System.Net.WebRequestMethods;
 using Jokes.Web.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Jokes.Web.Controllers
 {
@@ -45,6 +46,7 @@ namespace Jokes.Web.Controllers
         }
         [Route("like")]
         [HttpPost]
+        [Authorize]
         public Joke Like(UsersJokes uj)
         {
             var userRepo = new UserRepository(_connectionString);

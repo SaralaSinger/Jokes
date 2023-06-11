@@ -1,6 +1,7 @@
 ﻿using Jokes.Data;
 using Jokes.Web.ViewModels;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
@@ -61,6 +62,7 @@ namespace Jokes.Web.Controllers
 
         [HttpPost]
         [Route("logout")]
+        [Authorize]
         public void Logout()
         {
             HttpContext.SignOutAsync().Wait();
