@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jokes.Web", "Jokes.Web\Jokes.Web.csproj", "{443B6433-7CF5-4EC9-8A27-D22226A16B19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jokes.Data", "Jokes.Data\Jokes.Data.csproj", "{40AA569D-3E6C-451F-BF6D-180E94D08072}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{443B6433-7CF5-4EC9-8A27-D22226A16B19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{443B6433-7CF5-4EC9-8A27-D22226A16B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{443B6433-7CF5-4EC9-8A27-D22226A16B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{443B6433-7CF5-4EC9-8A27-D22226A16B19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40AA569D-3E6C-451F-BF6D-180E94D08072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40AA569D-3E6C-451F-BF6D-180E94D08072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40AA569D-3E6C-451F-BF6D-180E94D08072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40AA569D-3E6C-451F-BF6D-180E94D08072}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D01CD0E-4F59-4F67-BA53-0EDD95846818}
+	EndGlobalSection
+EndGlobal
